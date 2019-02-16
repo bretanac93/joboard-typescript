@@ -1,6 +1,9 @@
+import dotenv from "dotenv";
 import express from "express";
+
+dotenv.config();
 const app = express();
-const port = 8080; // default port to listen
+const port = process.env.APP_PORT || 3006; // default port to listen
 
 // define a route handler for the default home page
 app.get("/", (req, res) => {
