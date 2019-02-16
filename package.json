@@ -1,5 +1,5 @@
 {
-  "name": "guitar-store",
+  "name": "express-typescript-boilerplate",
   "version": "1.0.0",
   "main": "dist/index.js",
   "license": "MIT",
